@@ -18,14 +18,33 @@ body{
     padding: 10px;
 }
 #area-principal{
-    background: white;
     width: 920px;
     margin: 0 auto;
 }
+#area-postagens,#area-lateral{
+    background-color: orange;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+
 /*Formatacao de menu*/
 a{
     text-decoration:none;
 }
+
 a:link , a:visited{
     color: white;
     padding: 8px 12px;
