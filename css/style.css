@@ -22,8 +22,8 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
-#area-postagens,#area-lateral{
-    background-color: orange;
+#area-lateral{
+    background-color:orange;
 }
 #area-postagens{
     width: 660px;
@@ -64,6 +64,8 @@ a:hover{
 #area-cabecalho a:hover{
     color: #f7b600;
     background: #fff;
+   text-decoration: none;
+    
 }
 /*Formatacao geral*/
 h1{
